@@ -13,7 +13,7 @@ bedrooms = st.number_input("Number of Bedrooms", min_value=0, max_value=20, step
 bathrooms = st.number_input("Number of Bathrooms", min_value=0, max_value=10, step=1)
 sqft_living = st.number_input("Living Area (in sqft)", min_value=100)
 sqft_lot = st.number_input("Lot Size (in sqft)", min_value=100)
-floors = st.number_input("Number of Floors", min_value=1.0, max_value=4.0, step=0.5)
+floors = st.number_input("Number of Floors", min_value=1.0, max_value=5.0, step=1.0)
 waterfront = st.selectbox("Waterfront View?", ["No", "Yes"])
 view = st.slider("View Rating (0-4)", 0, 4, 0)
 condition = st.slider("Condition (1-5)", 1, 5, 3)

@@ -1,5 +1,7 @@
 # House-price-prediction
 Project Overview
+
+
 In today’s fast-evolving technological landscape, machine learning is a key tool to solve real-world problems. Predicting house prices is one such impactful application that benefits homeowners, buyers, and real estate professionals by providing accurate property valuations.
 
 This project implements multiple machine learning algorithms — Logistic Regression, Decision Trees, and Random Forests — to forecast house prices using features like bedrooms, bathrooms, living space, lot size, floors, and more.
